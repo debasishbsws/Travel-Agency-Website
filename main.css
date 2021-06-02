@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif; 
+}
+/*==Navbar==*/
+.bg{
+    background: #78bff1;
+}
+.main-navbar{
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 80%;
+    z-index:3;
+    top: 15px;;
+}
