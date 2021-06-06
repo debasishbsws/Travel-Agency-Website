@@ -205,3 +205,58 @@ header .logo span {
   font-size: 1.9rem;
   color: #333;
 }
+/*==Gallery Section==*/
+.gallery{
+  min-height: 100vh;
+
+}
+.gallery .box-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin:0 auto;
+}
+.gallery .box-container .box{
+  height:20rem;
+  width:30rem;
+  margin:2rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0.15rem 0.3rem #333;
+  align-items: flex-end;
+}
+.gallery .box-container .box img{
+  height:100%;
+  width:100%;
+  object-fit: cover;
+}
+.gallery .box-container .box .icons{
+  position: absolute;
+  top:120%; left: 0;
+  background:linear-gradient(transparent, #333);
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height:100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s linear;
+}
+.gallery .box-container .box:hover .icons{
+  opacity: 1;
+  top:0;
+}
+.gallery .box-container .box .icons a{
+  color:#fff;
+  text-shadow: 0 .1rem .3rem #000;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  margin: 0;
+}
+
+.gallery .box-container .box .icons a:hover{
+  color:#769fcd;
+}
