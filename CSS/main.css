@@ -262,3 +262,82 @@ header .logo span {
 .gallery .box-container .box .icons a:hover{
   color:#769fcd;
 }
+
+.contact{
+  background-color: #b9d7ea;
+}
+
+.contact .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contact .row .contact-info .box{
+  margin:4rem 2rem;
+}
+
+.contact .row .contact-info .box h3{
+  font-size: 2rem;
+  color:#333;
+}
+
+.contact .row .contact-info .box h3 i{
+  color:#769fcd;
+}
+
+.contact .row .contact-info .box p{
+  padding-left: 3rem;
+  font-size: 1.7rem;
+  color:#aaa;
+}
+
+.contact .row .contact-form-container{
+  width:50%;
+}
+
+.contact .row .contact-form-container h3{
+  font-size: 4rem;
+  padding-top: 4rem;
+  color:#769fcd;
+} 
+
+.contact .row .contact-form-container .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .row .contact-form-container .inputBox input{
+  width: 49%;
+}
+
+.contact .row .contact-form-container form input, textarea{
+  outline: none;
+  border:.2rem solid #769fcd;
+  height:4rem;
+  background:#fff;
+  padding:0 1rem;
+  margin:1rem 0;
+  font-size: 1.8rem;
+}
+
+.contact .row .contact-form-container form textarea{
+  width:100%;
+  padding:1rem;
+  resize: none;
+  height:20%;
+}
+
+.contact .row .contact-form-container form input[type="submit"]{
+  color:#769fcd;
+  border:.2rem solid #769fcd;
+  cursor: pointer;
+  transition: .2s;
+  width:20rem;
+}
+
+.contact .row .contact-form-container form input[type="submit"]:hover{
+  color:#fff;
+  background:#769fcd;
+}
