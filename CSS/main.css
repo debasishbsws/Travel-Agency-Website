@@ -265,6 +265,7 @@ header .logo span {
 
 .contact{
   background-color: #b9d7ea;
+  min-height: 100vh;
 }
 
 .contact .row{
@@ -279,7 +280,7 @@ header .logo span {
 
 .contact .row .contact-info .box h3{
   font-size: 2rem;
-  color:#333;
+  color:#769fcd;
 }
 
 .contact .row .contact-info .box h3 i{
@@ -289,7 +290,7 @@ header .logo span {
 .contact .row .contact-info .box p{
   padding-left: 3rem;
   font-size: 1.7rem;
-  color:#aaa;
+  color:#222;
 }
 
 .contact .row .contact-form-container{
@@ -339,5 +340,39 @@ header .logo span {
 
 .contact .row .contact-form-container form input[type="submit"]:hover{
   color:#fff;
+  background:#769fcd;
+}
+/*==footer ==*/
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem;
+  background:rgb(31, 71, 109);
+}
+
+.footer .credit{
+  font-size: 2rem;
+  color:#eee;
+}
+
+.footer .credit span{
+  color:#769fcd;
+}
+
+.footer .icons a{
+  font-size: 2rem;
+  margin:0 .5rem;
+  height:4rem;
+  width:4rem;
+  line-height: 3.5rem;
+  text-align: center;
+  border-radius: 50%;
+  color:#fff;
+  border:.2rem solid #fff;
+  transition: .2s linear;
+}
+
+.footer .icons a:hover{
   background:#769fcd;
 }
