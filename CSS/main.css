@@ -263,10 +263,13 @@ header .logo span {
   color:#769fcd;
 }
 
+
+/*==Contact==*/
 .contact{
   background-color: #b9d7ea;
   min-height: 100vh;
 }
+
 
 .contact .row{
   display: flex;
@@ -275,7 +278,7 @@ header .logo span {
 }
 
 .contact .row .contact-info .box{
-  margin:4rem 2rem;
+  margin:0rem 2rem;
 }
 
 .contact .row .contact-info .box h3{
@@ -299,7 +302,7 @@ header .logo span {
 
 .contact .row .contact-form-container h3{
   font-size: 4rem;
-  padding-top: 4rem;
+  padding-top: 1rem;
   color:#769fcd;
 } 
 
