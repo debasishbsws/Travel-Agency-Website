@@ -132,6 +132,7 @@ header .logo span {
 .feature .card-container .card img {
   height: 25rem;
   width: 100%;
+  border-radius: 5px;
   object-fit: cover;
 }
 
@@ -178,7 +179,11 @@ header .logo span {
 /*--About Section--*/
 .about {
   min-height: 100vh;
-  background-color: #f0fcff;
+  background: url(../img/back.jpg), linear-gradient(#769fcd, #8b8787) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
 }
 
 .about .row {
@@ -193,23 +198,26 @@ header .logo span {
 .about .row .image img {
   height: 52vh;
   width: 40vw;
+  border-radius: 10px;
+  
 }
 
 .about .row .content h3 {
   font-weight: 500;
   margin-left: 13px;
   font-size: 4rem;
-  color: #769fcd;
+  color: #f7fbfc;
 }
 
 .about .row .content p {
   margin-left: 13px;
   font-size: 1.9rem;
-  color: #333;
+  color: #b9d7ea;
 }
 /*==Gallery Section==*/
 .gallery{
   min-height: 100vh;
+  background: #d6e6f2;
 
 }
 .gallery .box-container{
@@ -267,7 +275,7 @@ header .logo span {
 /*==Contact==*/
 .contact{
   background-color: #b9d7ea;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 
