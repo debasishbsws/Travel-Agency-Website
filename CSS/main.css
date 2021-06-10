@@ -247,13 +247,10 @@ header .logo span {
   position: absolute;
   top:120%; left: 0;
   background:linear-gradient(transparent, #333);
-  display: flex;
-  align-items:flex-start;
-  justify-content: space-around;
   height:100%;
   width: 100%;
   opacity: 0;
-  transition: .2s linear;
+  transition: .5s ease;
 }
 .gallery .box-container .box:hover .icons{
   opacity: 1;
@@ -265,6 +262,16 @@ header .logo span {
   font-size: 2rem;
   padding-top: 1rem;
   margin-left: 85%;
+}
+.gallery .box-container .box .icons .name{
+  margin-top: 12rem;
+}
+.gallery .box-container .box .icons .name a{
+  color:#fff;
+  text-shadow: 0 .1rem .3rem #000;
+  font-size: 3rem;
+
+  margin-left: 1rem;
 }
 
 .gallery .box-container .box .icons a:hover{
