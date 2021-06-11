@@ -44,11 +44,7 @@ header .logo {
   font-size: 3rem;
   text-shadow: 0 0.1rem 0.2rem rgb(108, 194, 228);
 }
-header .navbar ul li a {
-  font-size: 3rem;
-  color: #333;
-  transition: 0.2s linear;
-}
+
 .heading {
   color: #d6e6f2;
   font-size: 4rem;
@@ -103,6 +99,26 @@ header .navbar ul li a {
   color: #77acf1;
   padding-left: 5rem;
   border-left: 0.3rem solid #b9d7ea;
+}
+
+.place .btn{
+  font-size: 1.7rem;
+  margin-top: 1.4rem;
+  margin-left: 10rem;
+  height: 3.5rem;
+  width: 12rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  background: #77acf1;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.place .btn:hover{
+  background: none;
+  border: 0.2rem solid #77acf1;
+  color: #77acf1;
 }
 
 .place .row .content p {
