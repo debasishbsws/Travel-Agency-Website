@@ -1,6 +1,9 @@
 var slideIndex = 0;
     showSlides();
     showSlides1();
+    showSlides2();
+    showSlides3();
+    showSlides4();
 
     function mainss(slides,dots){
         
@@ -31,4 +34,28 @@ var slideIndex = 0;
         var dots = document.getElementsByClassName("dot1");
         mainss(slides,dots)
         setTimeout(showSlides1, 3000); // Change image every 3 seconds
+      }
+      function showSlides2() {
+      
+        var i;
+        var slides = document.getElementsByClassName("mySlides2");
+        var dots = document.getElementsByClassName("dot2");
+        mainss(slides,dots)
+        setTimeout(showSlides2, 3000); // Change image every 3 seconds
+      }
+      function showSlides3() {
+      
+        var i;
+        var slides = document.getElementsByClassName("mySlides3");
+        var dots = document.getElementsByClassName("dot3");
+        mainss(slides,dots)
+        setTimeout(showSlides3, 3000); // Change image every 3 seconds
+      }
+      function showSlides4() {
+      
+        var i;
+        var slides = document.getElementsByClassName("mySlides4");
+        var dots = document.getElementsByClassName("dot4");
+        mainss(slides,dots)
+        setTimeout(showSlides4, 3000); // Change image every 3 seconds
       }

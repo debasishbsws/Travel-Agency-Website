@@ -108,12 +108,12 @@ header .navbar ul li a {
 
 .place .row .content p {
   margin-left: 5rem;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color: #687788;
   padding-left: 2rem;
   border-left: 0.3rem solid #b9d7ea;
 }
-#Meghalaya{
+#Meghalaya, #Arunachal{
   background-color: #d6e6f2;
 }
 
