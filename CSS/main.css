@@ -48,7 +48,7 @@ header .logo {
 }
 
 header .logo span {
-  color: #769fcd;
+  color: #77acf1;
 }
 /*== End Header & Navbar==*/
 
@@ -103,7 +103,7 @@ header .logo span {
 }
 
 .heading span {
-  color: #769fcd;
+  color: #77acf1;
 }
 
 .feature {
@@ -142,7 +142,7 @@ header .logo span {
 }
 
 .feature .card-container .content .title {
-  color: #769fcd;
+  color: #77acf1;
   font-size: 3rem;
 }
 
@@ -162,7 +162,7 @@ header .logo span {
   border-radius: 0.5rem;
   outline: none;
   border: none;
-  background: #769fcd;
+  background: #77acf1;
   color: #fff;
   cursor: pointer;
   transition: 0.2s linear;
@@ -172,14 +172,14 @@ header .logo span {
 .gallery .btn:hover,
 .about .row .content .btn:hover {
   background: none;
-  border: 0.2rem solid #769fcd;
-  color: #769fcd;
+  border: 0.2rem solid #77acf1;
+  color: #77acf1;
 }
 
 /*--About Section--*/
 .about {
   min-height: 100vh;
-  background: url(../img/back.jpg), linear-gradient(#769fcd, #8b8787) no-repeat;
+  background: url(../img/back.jpg), linear-gradient(#77acf1, #8b8787) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -275,7 +275,7 @@ header .logo span {
 }
 
 .gallery .box-container .box .icons a:hover{
-  color:#769fcd;
+  color:#77acf1;
 }
 
 
@@ -298,11 +298,11 @@ header .logo span {
 
 .contact .row .contact-info .box h3{
   font-size: 2rem;
-  color:#769fcd;
+  color:#77acf1;
 }
 
 .contact .row .contact-info .box h3 i{
-  color:#769fcd;
+  color:#77acf1;
 }
 
 .contact .row .contact-info .box p{
@@ -318,7 +318,7 @@ header .logo span {
 .contact .row .contact-form-container h3{
   font-size: 4rem;
   padding-top: 1rem;
-  color:#769fcd;
+  color:#77acf1;
 } 
 
 .contact .row .contact-form-container .inputBox{
@@ -333,7 +333,7 @@ header .logo span {
 
 .contact .row .contact-form-container form input, textarea{
   outline: none;
-  border:.2rem solid #769fcd;
+  border:.2rem solid #77acf1;
   height:4rem;
   background:#fff;
   padding:0 1rem;
@@ -349,8 +349,8 @@ header .logo span {
 }
 
 .contact .row .contact-form-container form input[type="submit"]{
-  color:#769fcd;
-  border:.2rem solid #769fcd;
+  color:#77acf1;
+  border:.2rem solid #77acf1;
   cursor: pointer;
   transition: .2s;
   width:20rem;
@@ -358,7 +358,7 @@ header .logo span {
 
 .contact .row .contact-form-container form input[type="submit"]:hover{
   color:#fff;
-  background:#769fcd;
+  background:#77acf1;
 }
 /*==footer ==*/
 .footer{
@@ -375,7 +375,7 @@ header .logo span {
 }
 
 .footer .credit span{
-  color:#769fcd;
+  color:#77acf1;
 }
 
 .footer .icons a{
@@ -392,5 +392,5 @@ header .logo span {
 }
 
 .footer .icons a:hover{
-  background:#769fcd;
+  background:#77acf1;
 }
