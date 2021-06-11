@@ -77,7 +77,7 @@ header .navbar ul li a {
   background-color: #77acf1;
   z-index: 2000;
 }
-#Sikkim{
+#Sikkim {
   padding-top: 10rem;
   background-color: #f7fbfc;
 }
@@ -88,13 +88,12 @@ header .navbar ul li a {
 }
 .place .row {
   display: flex;
- 
+
   justify-content: space-around;
   width: 90%;
   margin: 0 auto;
   flex-flow: row;
 }
-
 
 .place .row .content h3 {
   font-weight: 500;
@@ -113,7 +112,8 @@ header .navbar ul li a {
   padding-left: 2rem;
   border-left: 0.3rem solid #b9d7ea;
 }
-#Meghalaya, #Arunachal{
+#Meghalaya,
+#Arunachal {
   background-color: #d6e6f2;
 }
 
