@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--icon-->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+
+    <!--Import Google Icon Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Linking CSS-->
+    <link rel="stylesheet" href="css/destinations.css" />
+    <!--Link Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn file link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <title>Tourismo of North East</title>
+  </head>
+
+  <body>
+    <section class="topp">
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light main-navbar bg"
+          id="main-navbar"
+        >
+          <div class="container">
+            <a href="../index.html" class="navbar-brand logo">
+              <img
+                src="../img/‭icon.jpg"
+                width="30"
+                height="30"
+                class="d-inline-block"
+                alt=""
+              />
+              tourismo</a
+            >
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="my-nav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="../index.html#home" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#feature" class="nav-link">Popular loc.</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#about" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#gallery" class="nav-link">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="../index.html#contact" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+      </header>
+
+      <h1 class="heading"><span>d</span>estinations</h1>
+    </section><!DOCTYPE html>
+
+        
