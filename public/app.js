@@ -1,5 +1,5 @@
-
 const auth = firebase.auth();
+const db = firebase.firestore();
 
 const signInBtn = document.getElementById('signInBtn');
 const signOutBtn = document.getElementById('signOutBtn');
@@ -22,3 +22,28 @@ auth.onAuthStateChanged(user => {
         signOutBtn.hidden = true;
     }
 });
+
+//add message in db
+
+const frm = document.getElementById('meg-inp');
+message_ref = db.collection('Feedback-Message')
+
+auth.onAuthStateChanged(user =>{
+    if(user){
+        frm.addEventListener('submit', (e) => {
+            const{serverTimestamp} = firebase.firestore.FieldValue;
+            e.preventDefault();
+            message_ref.add({
+                uname: user.displayName,
+                uphon: frm.phNo.value,
+                uemail: user.email,
+                umessage: frm.message.value,
+                sentAt: serverTimestamp()
+                  
+            });
+            frm.phNo.value = "";
+            frm.message.value = "";
+            
+        })
+    }
+})
