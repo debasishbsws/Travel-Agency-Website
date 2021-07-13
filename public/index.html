@@ -79,10 +79,31 @@
                 <a href="#contact" class="nav-link">Contact us</a>
               </li>
               <li class="nav-item">
-                <button id="signInBtn" class="btn" style="font-size: 1.8rem; margin-left: 5px; border-color: #769fcd;">Sign in</button>
+                <button
+                  id="signInBtn"
+                  class="btn"
+                  style="
+                    font-size: 1.8rem;
+                    margin-left: 5px;
+                    border-color: #769fcd;
+                  "
+                >
+                  Sign in
+                </button>
               </li>
               <li class="nav-item">
-                <button id="signOutBtn" class="btn" style="font-size: 1.8rem; margin-left: 5px; border-color: #769fcd;" hidden="true">Sign out</button>
+                <button
+                  id="signOutBtn"
+                  class="btn"
+                  style="
+                    font-size: 1.8rem;
+                    margin-left: 5px;
+                    border-color: #769fcd;
+                  "
+                  hidden="true"
+                >
+                  Sign out
+                </button>
               </li>
             </ul>
           </div>
@@ -95,8 +116,8 @@
       <div class="video">
         <video src="img/Home/home.mp4" loop muted autoplay></video>
       </div>
-
       <div class="content">
+        <samp id="signInPer" style="font-size:2.2vw;border-right: 0.3rem solid #ddd;border-left:none;">Please Sign in</samp>
         <h1>
           explore the<br />North East of India, <br />
           nature awaits.
@@ -327,12 +348,7 @@
             <h3>get in touch</h3>
 
             <div class="inputBox">
-              <input type="text" placeholder="full name" />
-              <input
-                type="email"
-                placeholder="e-mail"
-                style="text-transform: none"
-              />
+              <input type="text" placeholder="Phone no" />
             </div>
 
             <textarea
@@ -340,7 +356,7 @@
               id=""
               cols="30"
               rows="6"
-              placeholder="message"
+              placeholder="Message and FeedBack"
               style="text-transform: none"
             ></textarea>
 
@@ -376,6 +392,8 @@
     </section>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
 
     <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->

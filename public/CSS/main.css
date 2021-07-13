@@ -70,17 +70,13 @@ header .logo {
   z-index: -1;
 }
 
-.home .content {
-  margin-top: 7rem;
-}
-
 .home .content h1 {
   font-size: 5.1vw;
   color: #fff;
   text-shadow: 0 0.2rem 0.35rem #000;
 }
 
-.home .content p {
+.home .content p,h2 {
   font-size: 1.8vw;
   color: #eee;
   text-shadow: 0 0.2rem 0.35rem #000;
