@@ -58,9 +58,5 @@ auth.onAuthStateChanged(user => {
 
         })
     }
-    else {
-        frm.addEventListener('submit', (e) => {
-            alert("Please Sign in First");
-        })
-    }
+
 })
