@@ -1,10 +1,20 @@
 const auth = firebase.auth();
+
 const db = firebase.firestore();
 
+
+
 const signInBtn = document.getElementById('signInBtn');
+
 const signOutBtn = document.getElementById('signOutBtn');
 
+const signInPer = document.getElementById('signInPer');
+
+
+
 const provider = new firebase.auth.GoogleAuthProvider();
+
+
 
 signInBtn.onclick = () => auth.signInWithPopup(provider);
 
@@ -15,11 +25,13 @@ auth.onAuthStateChanged(user => {
         //signed in
         signInBtn.hidden = true;
         signOutBtn.hidden = false;
+        signInPer.innerHTML = "Hello "+ user.displayName;
 
     } else {
         // not signed in
         signInBtn.hidden = false;
         signOutBtn.hidden = true;
+        signInPer.innerHTML = "Please Sign in";
     }
 });
 

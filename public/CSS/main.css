@@ -75,8 +75,16 @@ header .logo {
   color: #fff;
   text-shadow: 0 0.2rem 0.35rem #000;
 }
+#signInPer {
+  text-align: right;
+  font-size: 2vw;
+  color: #eee;
+  text-shadow: 0 0.2rem 0.35rem #000;
+  padding-left: 2rem;
+  border-right: 0.3rem solid #ddd;
+}
 
-.home .content p,h2 {
+.home .content p {
   font-size: 1.8vw;
   color: #eee;
   text-shadow: 0 0.2rem 0.35rem #000;
