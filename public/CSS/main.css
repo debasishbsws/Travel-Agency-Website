@@ -82,6 +82,7 @@ header .logo {
   text-shadow: 0 0.2rem 0.35rem #000;
   padding-left: 2rem;
   border-right: 0.3rem solid #ddd;
+  padding-right: 1.5rem;
 }
 
 .home .content p {
