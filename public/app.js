@@ -25,7 +25,7 @@ auth.onAuthStateChanged(user => {
         //signed in
         signInBtn.hidden = true;
         signOutBtn.hidden = false;
-        signInPer.innerHTML = "Hello "+ user.displayName;
+        signInPer.innerHTML = "Hello " + user.displayName;
 
     } else {
         // not signed in
@@ -40,10 +40,10 @@ auth.onAuthStateChanged(user => {
 const frm = document.getElementById('meg-inp');
 message_ref = db.collection('Feedback-Message')
 
-auth.onAuthStateChanged(user =>{
-    if(user){
+auth.onAuthStateChanged(user => {
+    if (user) {
         frm.addEventListener('submit', (e) => {
-            const{serverTimestamp} = firebase.firestore.FieldValue;
+            const { serverTimestamp } = firebase.firestore.FieldValue;
             e.preventDefault();
             message_ref.add({
                 uname: user.displayName,
@@ -51,11 +51,16 @@ auth.onAuthStateChanged(user =>{
                 uemail: user.email,
                 umessage: frm.message.value,
                 sentAt: serverTimestamp()
-                  
+
             });
             frm.phNo.value = "";
             frm.message.value = "";
-            
+
+        })
+    }
+    else {
+        frm.addEventListener('submit', (e) => {
+            alert("Please Sign in First");
         })
     }
 })
